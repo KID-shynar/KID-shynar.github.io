@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "-Pkuhub's site"
+title                    : "Shynar"
 title_separator          : "-"
-name                     : &name "xker "
-description              : &description "111"
-url                      : https://pkuhub-dev.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "Shynar"
+description              : &description "Shynar — Medical Imaging Technology at Peking University. Research in self-supervised learning and 3D cerebrovascular imaging."
+url                      : https://KID-shynar.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "pkuhub-dev/pkuhub-dev.github.io"
+repository               : "KID-shynar/KID-shynar.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -73,21 +73,21 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
+  provider               :  false # false (default), "google", "google-universal", "custom"
   google:
     tracking_id          :
 
 
 # Site Author
 author:
-  name             : "Yourname"
-  avatar           : "white.png"
-  bio              : "Peking University"
-  location         : "China Beijing"
+  name             : "Shynar"
+  avatar           : "https://avatars.githubusercontent.com/u/204146477?v=4"
+  bio              : "Medical Imaging & AI<br>Peking University"
+  location         : "Beijing, China"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : #"http://yourfullgooglescholarurl.com"
-  email            : "help@pkuhub.cn"
+  email            : "2310117146@stu.pku.edu.cn"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -96,7 +96,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "pkuhub-dev"
+  github           : "KID-shynar"
   google_plus      :
   keybase          :
   instagram        :
@@ -124,6 +124,37 @@ include:
   - _pages
   - files
 exclude:
+  # Keep template examples in source without publishing them as personal work.
+  - _Blogs
+  - _Notes
+  - _Repositories
+  - _portfolio
+  - _posts
+  - _publications
+  - _talks
+  - _teaching
+  - markdown_generator
+  - talkmap
+  - talkmap.py
+  - talkmap.ipynb
+  - tricks.ipynb
+  - wget-log
+  - images for how to use it
+  - _pages/cv-zh.md
+  - _pages/Blogs.md
+  - _pages/Links.md
+  - _pages/Notes.md
+  - _pages/Repositories.md
+  - _pages/archive-layout-with-content.md
+  - _pages/collection-archive.html
+  - _pages/markdown.md
+  - _pages/non-menu-page.md
+  - _pages/portfolio.html
+  - _pages/publications.md
+  - _pages/talkmap.html
+  - _pages/talks.html
+  - _pages/teaching.html
+  - _pages/terms.md
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache
@@ -315,7 +346,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Shanghai # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
